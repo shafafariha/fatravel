@@ -1,0 +1,817 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts-->
+</head>
+<body>
+    
+
+
+
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+
+
+
+
+    <!-- Home Section Start-->
+    <div class="home">
+         <div class="content">
+            <h5>Welcome To Europe</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>you only need to choose the destinations</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+    <!-- Home Section End-->
+
+
+
+
+
+    <!--Section Book Start-->
+    <section class="book" id="book">
+        <div class="container">
+
+            <div class="main-text">
+                <h1><span>B</span>ook</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+
+                        <input type="text" class="form-control" placeholder="Where To" required><br>
+                        <input type="text" class="form-control" placeholder="How many" required><br>
+                        <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                        <input type="date" class="form-control" placeholder="Leaving" required><br>
+                        <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+                        <input type="submit" value="Book Now" class="submit" required>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section Book End-->
+
+
+
+
+
+
+
+
+    <!--Section Packages Start-->
+    <section class="packages" id="packages">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1><span>P</span>ackages</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/UK.jpg" alt="">
+                        <div class="card-body">
+                            <h3>UNITED KINGDOM</h3>
+                            <p>Experience some fine British food, spectacular sights and city life whilst visiting the UK</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$5,880</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/france.jpg" alt="">
+                        <div class="card-body">
+                            <h3>FRANCE</h3>
+                            <p>From the dazzling beauty of the French Riviera to the iconic archtecture of Paris</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$4,450</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/spain.jpg" alt="">
+                        <div class="card-body">
+                            <h3>SPAIN</h3>
+                            <p>The virtues of a luxury holiday in Spain have long been extolled. It has the Mediterranean climate and lifestyle</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$6,760</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/italy.jpg" alt="">
+                        <div class="card-body">
+                            <h3>ITALY</h3>
+                            <p>Italy has a history  and culture takes in the ancient Etruscand, the glory of Rome, the Renaissance and the Age of Enlightenment</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$7,870</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/croatia.jpg" alt="">
+                        <div class="card-body">
+                            <h3>CROATIA</h3>
+                            <p> With a wealth of natural riches and historical treasures, Croatia is one of Europe's most exciting destinations</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$6,100</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/nether.jpg" alt="">
+                        <div class="card-body">
+                            <h3>NETHERLANDS</h3>
+                            <p>The tiny Netherlands punches well above its weight when it comes to culture, while offering an European storybook setting</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$4,500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/cyprus.jpg" alt="">
+                        <div class="card-body">
+                            <h3>CYPRUS</h3>
+                            <p>Cyprus ringed by azure waters, fringed by beautiful sands, and blessed with a seemingly endless summer, Cyprus is perhaps best known as a beach destination</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$2,300</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/finland.jpg" alt="">
+                        <div class="card-body">
+                            <h3>FINLAND</h3>
+                            <p>From the Northern Lights to the midnight sun, areas of vast wilderness to cutting-edge Scandi design, Finland is a land of extremes</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$8,050</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/germany.jpg" alt="">
+                        <div class="card-body">
+                            <h3>GERMANY</h3>
+                            <p>From the Baltic-coast beaches to the glacial splendour of the Bavarian Alps, Germany is land of enchanting scenery</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$5,710</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/czech.jpg" alt="">
+                        <div class="card-body">
+                            <h3>CZECH REPUBLIC</h3>
+                            <p>The Czech Republic has beauty, diversity, an incredibly rich cultural history, and is a spectacular destination in every season</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$4,810</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/grece.jpg" alt="">
+                        <div class="card-body">
+                            <h3>GREECE</h3>
+                            <p>Dotted with ruins of an ancient civilization and steeped in myth and legend, Greece is a cultural treasure chest</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$6,900</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/iceland.jpg" alt="">
+                        <div class="card-body">
+                            <h3>ICELAND</h3>
+                            <p>If ever there was nation shaped by the forces of nature, it's Iceland. The elemnts of wind, fire, and water have buffeted, scluptured, and pummelled</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$7,500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/ireland.jpg" alt="">
+                        <div class="card-body">
+                            <h3>IRELAND</h3>
+                            <p>Renowed for its dramatic landscapes, literary genius, rich history steeped in lore, Ireland may be small but it's packed full of character</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$8,120</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/monaco.jpg" alt="">
+                        <div class="card-body">
+                            <h3>MONACO</h3>
+                            <p>Monaco has been called the millionaire's playground of Europe. Taking the thrilling street at the race, take the legendary Grand Casino, and the Opera de Monte Carlo</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$9,120</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/montenegro.jpg" alt="">
+                        <div class="card-body">
+                            <h3>MONTENEGRO</h3>
+                            <p>Montenegro has seductive Balkan destination promises a combination of rugged beauty, stunning beaches, medieval charm, and an excluseive yachting scene</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$7,990</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/norway.jpg" alt="">
+                        <div class="card-body">
+                            <h3>NORWAY</h3>
+                            <p> Norway the fabled land of the vikings-is an intimitable winter world of adventure, wildlife and primordial landscapes</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$8,050</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/portugal.jpg" alt="">
+                        <div class="card-body">
+                            <h3>PORTUGAL</h3>
+                            <p>For a small sliver of land clinging to the far west of the Iberian Peninsula, Portugal serves up an extravagant feast of luxury travel experience</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$7,910</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/rusia.jpg" alt="">
+                        <div class="card-body">
+                            <h3>RUSIA</h3>
+                            <p>Rusia has been of intense history, beautiful palaces, artistic riches, idyllic countryside, and sublime ballet and theatre production</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$8,210</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/slovenia.jpg" alt="">
+                        <div class="card-body">
+                            <h3>SLOVENIA</h3>
+                            <p>Slovenia is a hidden gem offering sparkling lakes, turqouise rivers, and breathaking Alpine scenery</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$5,780</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/sweeden.jpg" alt="">
+                        <div class="card-body">
+                            <h3>SWEEDEN</h3>
+                            <p>Sweeden is an enchanting country. Sweeden offers a wilderness and adventure alongside history and cosmopolitan cities</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$5,630</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <img src="./image/switzer.jpg" alt="">
+                        <div class="card-body">
+                            <h3>SWITZERLAND</h3>
+                            <p>With its alpine scenery, chocolate-box villages, cultural cites, glamorus ski resort and appreciation for the finer things in life</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$7,130</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--Section Packages End-->
+
+
+
+
+
+    
+
+    <!-- Section Services Start-->
+    <section class="services" id="services">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1><span>S</span>ervices</h1>
+            </div>
+            
+            <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-hotel"></i>
+                        <div class="card-body">
+                            <h3>Luxury Hotel</h3>
+                            <p>luxury hotel with extraordinary facilities</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-utensils"></i>
+                        <div class="card-body">
+                            <h3>Food & Drink</h3>
+                            <p>local culinary experiences  </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="card-body">
+                            <h3>Safety Guide</h3>
+                            <p>accompanied by a professional guide</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+             </div>
+
+
+
+             <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-globe-asia"></i>
+                        <div class="card-body">
+                            <h3>Arround The World</h3>
+                            <p>explore and have new experiences</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-plane"></i>
+                        <div class="card-body">
+                            <h3>Fastest Travel</h3>
+                            <p>travel with privat accomodation</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+
+                    <div class="card">
+                        <i class="fas fa-hiking"></i>
+                        <div class="card-body">
+                            <h3>Adventure</h3>
+                            <p>explore new places you've never been to</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+        </div>
+    </section>
+    <!-- Section Services End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section Gallery Start-->
+    <section class="gallery" id="gallery">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1><span>G</span>allery</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/gal1.jpg" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                         <img src="./image/gal2.jpg" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/gal3.jpg" alt="" height="230px">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/gal4.jpg" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                         <img src="./image/gal5.jpg" alt="" height="230px">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/gal6.jpg" alt="" height="230px">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        
+    <!-- Section Gallery End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- About Start-->
+    <section class="about" id="about">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1> About<span> Us</span></h1>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+            
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/about.jpg" alt="">
+                    </div>
+                </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <h2> How Travel Agency Work</h2>
+                <p>We won't take you to the usual tourist traps, instead we'll introduce you to people that show you the true side of a country. With our contacts in each destination, we can arrange for you to meet locals away from the crowds and ensure an authentic experience</p>
+                <button id="about-btn"> Read More..."</button>
+            </div>
+
+         </div>
+
+        </div>
+    </section>   
+
+    <!-- About End-->
+
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <h1><span>T</span>ravel</h1>
+        <p>Travel around Europe, visit multiple countries and experience the best that these Europe destinations have to offer</p>
+        <div class="social-links">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="credit">
+            <p>Designed By<a href="#">Shafa Fariha Tsuraya</a></p>
+        </div>
+        <div class="copyright">
+            <p>&copy;Copyright Shafa Fariha Tsuraya. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
